@@ -1,5 +1,5 @@
 
-## Let's get straight to the point of this article, which is how to install the safelink script for the Plus UI theme. The first step is to copy and paste the two JavaScript codes below right above the code  ```  <!--[ </body> close ]-->  ```
+### Let's get straight to the point of this article, which is how to install the safelink script for the Plus UI theme. The first step is to copy and paste the two JavaScript codes below right above the code  ```  <!--[ </body> close ]-->  ```
 
 ```sh
 <script>/*<![CDATA[*//* Safelink */ function _0x4001(){var r=["indexOf","fromCharCode","248082FnFLPu","2dyVCwX","851934NCaRZc","1464344UJimDR","255DsMQPg","13242QFkwLe","472829bEwnSk","24WKgyRt","3319965YzkqUw","10ZsypoO","875633sYiivu","MNBVCXZLKJHGFDSAPOIUYTREWQmnbvcxzlkjhgfdsapoiuytrewq0987654321+/=","_utf8_enc","charCodeAt","_keyStr","charAt","replace","length"];return(_0x4001=function(){return r})()}function _0x2f39a2(r,n){return _0x3fd0(r-544,n)}function _0x3fd0(r,n){var t=_0x4001();return(_0x3fd0=function(r,n){return t[r=+r]})(r,n)}!function(){function r(r,n){return _0x3fd0(n-107,r)}var n=_0x4001();function t(r,n){return _0x3fd0(n-241,r)}for(;;)try{if(213392==+parseInt(r(105,107))*(-parseInt(r(107,108))/2)+-parseInt(r(99,109))/3+parseInt(r(116,110))/4+parseInt(r(116,111))/5*(-parseInt(t(255,246))/6)+parseInt(t(249,247))/7*(parseInt(r(109,114))/8)+parseInt(t(258,249))/9+parseInt(t(245,250))/10*(-parseInt(r(113,117))/11))break;n.push(n.shift())}catch(r){n.push(n.shift())}}();var b64={_keyStr:_0x2f39a2(555,551),enc:function(r){function n(r,n){return _0x3fd0(r- -600,n)}var t,e,f,i,u,c,a="",o=0;function d(r,n){return _0x3fd0(r- -100,n)}for(r=b64[n(-588,-592)](r);o<r.length;)f=(c=r.charCodeAt(o++))>>2,i=(3&c)<<4|(t=r[d(-87,-84)](o++))>>4,u=(15&t)<<2|(e=r[d(-87,-97)](o++))>>6,c=63&e,isNaN(t)?u=c=64:isNaN(e)&&(c=64),a=a+this[d(-86,-93)][d(-85,-83)](f)+this[n(-586,-579)].charAt(i)+this[d(-86,-88)][n(-585,-583)](u)+this._keyStr[n(-585,-579)](c);return a},dec:function(r){function n(r,n){return _0x3fd0(r-70,n)}function t(r,n){return _0x3fd0(r-457,n)}var e,f,i,u,c,a="",o=0;for(r=r[t(473,474)](/[^A-Za-z0-9\+\/\=]/g,"");o<r[t(474,475)];)e=this._keyStr[n(88,89)](r[t(472,474)](o++))<<2|(i=this[n(84,91)].indexOf(r.charAt(o++)))>>4,f=(15&i)<<4|(u=this[n(84,91)].indexOf(r[n(85,83)](o++)))>>2,i=(3&u)<<6|(c=this[t(471,471)].indexOf(r[n(85,93)](o++))),a+=String[n(89,97)](e),64!=u&&(a+=String.fromCharCode(f)),64!=c&&(a+=String[n(89,95)](i));return b64._utf8_dec(a)},_utf8_enc:function(r){function n(r,n){return _0x3fd0(r-954,n)}r=r[n(970,962)](/\r\n/g,"\n");for(var t="",e=0;e<r[n(971,973)];e++){var f=r[n(967,972)](e);f<128?t+=String[n(973,983)](f):(127<f&&f<2048?t+=String[i(659,662)](f>>6|192):(t+=String.fromCharCode(f>>12|224),t+=String.fromCharCode(f>>6&63|128)),t+=String[i(671,662)](63&f|128))}function i(r,n){return _0x3fd0(n-643,r)}return t},_utf8_dec:function(r){function n(r,n){return _0x3fd0(r-515,n)}for(var t="",e=0,f=c1=c2=0;e<r[n(532,525)];)(f=r[i(391,387)](e))<128?(t+=String[n(534,526)](f),e++):191<f&&f<224?(c2=r.charCodeAt(e+1),t+=String[n(534,543)]((31&f)<<6|63&c2),e+=2):(c2=r.charCodeAt(e+1),c3=r[i(391,388)](e+2),t+=String.fromCharCode((15&f)<<12|(63&c2)<<6|63&c3),e+=3);function i(r,n){return _0x3fd0(r-378,n)}return t}}; /*]]>*/</script>
@@ -15,7 +15,7 @@
  ```
 ------------------------------------------
 
-Also add the CSS code below just below the tag ```/* --- Your Custom CSS goes here --- */```
+### Also add the CSS code below just below the tag ```/* --- Your Custom CSS goes here --- */```
 ```sh
 /* Human Verification */ .hmv{position:relative;font-family:var(--fontBa);border-radius:10px;padding:30px 20px;margin-bottom:40px;text-align:center;overflow:hidden} .hmv::before{content:'';position:absolute;z-index:0;top:0;right:0;bottom:0;left:0;background:var(--linkB);opacity:.06} .hmv::after{content:'';width:60px;height:60px;background:rgba(0,0,0,.15);display:block;border-radius:50%;position:absolute;top:-12px;left:-12px;opacity:.1} .hmv >*{position:relative;z-index:1} .hmv .hmvH{font-size:1.2rem;font-weight:700;margin-bottom:15px} .hmv .hmvD{font-family:var(--fontB);font-size:13px;opacity:.8;display:inline-flex;align-items:center} .hmv .hmvD svg{width:13px;height:13px;margin-right:5px} .hmv:not(.alt) .button, .hmv.alt .hmvH.bef, .hmv:not(.alt) .hmvH.aft, .hmv.alt .hmvD{display:none} .drK .hmv::before{background:var(--darkBs);opacity:1}
  
@@ -24,7 +24,7 @@ Also add the CSS code below just below the tag ```/* --- Your Custom CSS goes he
  ```
 ------------------------------------------
 
-Then copy and paste the following HTML code at the bottom of the code ```<main class='blogItm mainbar'>```
+### Then copy and paste the following HTML code at the bottom of the code ```<main class='blogItm mainbar'>```
 ```sh
  <b:if cond='data:view.isHomepage'>
   <!--[ Human verification ]-->
@@ -38,7 +38,7 @@ Then copy and paste the following HTML code at the bottom of the code ```<main c
  ```
  ------------------------------------------
  
- Also add the code below just below the tag ```<b:tag class='pInr' cond='data:view.isSingleItem' name='div'>```
+ ### Also add the code below just below the tag ```<b:tag class='pInr' cond='data:view.isSingleItem' name='div'>```
  ```sh
  <b:if cond='data:view.isPost'>
   <!--[ Safelink Countdown Timer ]-->
@@ -56,7 +56,7 @@ Then copy and paste the following HTML code at the bottom of the code ```<main c
   ```
 ------------------------------------------
 
-Also put the following html code just below the tag ```<data:post.body/>```
+### Also put the following html code just below the tag ```<data:post.body/>```
  ```sh
 <b:if cond='data:view.isPost'>
   <!--[ Safelink Destination Button ]-->
@@ -68,7 +68,7 @@ Also put the following html code just below the tag ```<data:post.body/>```
    
 ------------------------------------------ 
    
-Then the final step, create a static page on the blog and paste the following code in HTML writing mode.   
+### Then the final step, create a static page on the blog and paste the following code in HTML writing mode.   
  ```sh
    <style>
   /*! SafeLink Generator CSS */
@@ -116,7 +116,7 @@ Then the final step, create a static page on the blog and paste the following co
 ------------------------------------------
 
     
-The code above is a page from the manual safelink URL generator tool, if you want to generate a safelink URL automatically use the code below for each post with a download button and the like.   
+### The code above is a page from the manual safelink URL generator tool, if you want to generate a safelink URL automatically use the code below for each post with a download button and the like.   
 
 ```sh
  <div style="text-align:center"><a class="button safeL" href="#" data-href="Your Url here"><i class="icon demo"></i>View Demo</a></div> 
@@ -125,6 +125,6 @@ The code above is a page from the manual safelink URL generator tool, if you wan
 ------------------------------------------
  
  
-It is recommended to continue using the safelink generator tool on the page, because there is a bug caused by cookies on automatic safelink, which makes safelink remain active even though you have clicked the URL several times. And every time you enter the safelink URL, it is recommended to use tags ```target='_blank'```in each URL button.
+### It is recommended to continue using the safelink generator tool on the page, because there is a bug caused by cookies on automatic safelink, which makes safelink remain active even though you have clicked the URL several times. And every time you enter the safelink URL, it is recommended to use tags ```target='_blank'```in each URL button.
 
 Example:```<a href='url_safe_link' terget='_blank'></a>  ```
