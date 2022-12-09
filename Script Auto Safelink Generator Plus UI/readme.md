@@ -14,7 +14,7 @@ Let's get straight to the point of this article, which is how to install the saf
 
  ```
 
-Also add the CSS code below just below the tag/* --- Your Custom CSS goes here --- */
+Also add the CSS code below just below the tag ```/* --- Your Custom CSS goes here --- */```
 ```sh
 /* Human Verification */ .hmv{position:relative;font-family:var(--fontBa);border-radius:10px;padding:30px 20px;margin-bottom:40px;text-align:center;overflow:hidden} .hmv::before{content:'';position:absolute;z-index:0;top:0;right:0;bottom:0;left:0;background:var(--linkB);opacity:.06} .hmv::after{content:'';width:60px;height:60px;background:rgba(0,0,0,.15);display:block;border-radius:50%;position:absolute;top:-12px;left:-12px;opacity:.1} .hmv >*{position:relative;z-index:1} .hmv .hmvH{font-size:1.2rem;font-weight:700;margin-bottom:15px} .hmv .hmvD{font-family:var(--fontB);font-size:13px;opacity:.8;display:inline-flex;align-items:center} .hmv .hmvD svg{width:13px;height:13px;margin-right:5px} .hmv:not(.alt) .button, .hmv.alt .hmvH.bef, .hmv:not(.alt) .hmvH.aft, .hmv.alt .hmvD{display:none} .drK .hmv::before{background:var(--darkBs);opacity:1}
  
