@@ -13,6 +13,7 @@ Let's get straight to the point of this article, which is how to install the saf
  /*]]>*/</script>
 
  ```
+------------------------------------------
 
 Also add the CSS code below just below the tag ```/* --- Your Custom CSS goes here --- */```
 ```sh
@@ -21,6 +22,7 @@ Also add the CSS code below just below the tag ```/* --- Your Custom CSS goes he
 /* Scroll to Continue */ .aSlT, .aSlB{display:none;align-items:center;justify-content:center;text-align:center;padding:30px 0} .aSlP{display:block;position:relative;height:40px;width:100%;display:none;align-items:center;justify-content:center;z-index:0;border-radius:var(--buttonR);overflow:hidden} .aSlP::before{content:''; position: absolute;top:0;right:0;bottom:0;left:0; background:var(--linkC);opacity:.5} .aSlW{position: absolute;top:0;bottom:0;left:0;width:0;background:var(--linkC);opacity:.6;transition:width 1s ease} .aSlP > span{position:absolute;color:#fffdfc;font-size:15px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis} .aScr{display:none;position:relative;width:100%;font-family:var(--fontBa);border-radius:10px;padding:30px 20px;text-align:center;overflow:hidden} .aScr::after{content:'';width:60px;height:60px;background:rgba(0,0,0,.15);display:block;border-radius:50%;position:absolute;top:-12px;left:-12px;opacity:.1} .aScr::before{content:'';position:absolute;z-index:0;top:0;right:0;bottom:0;left:0;background:var(--linkB);opacity:.06} .aScr .hglt{color:var(--linkC)} .aScr .aScrH{position:relative;z-index:1;font-size:1.2rem;font-weight:700;margin-bottom:15px} .aScr .aScrD{position:relative;z-index:1;font-family:var(--fontB);font-size:13px;opacity:.8;display:inline-flex;align-items:center} .aScr .aScrD svg{width:13px;height:13px;margin-right:5px;stroke-width:1.5} .aSlT.vsbl, .aSlB.vsbl, .aSlT:not(.alt) .aSlP{display:flex} .aSlT.alt .aScr{display:block} .aSlT.nInt .aSlP > span{font-size:13px} .Rtl .aSlW{left:unset;right:0} .Rtl .aScr .aScrD svg{margin-right:0;margin-left:5px} .drK .aSlP::before{background:var(--darkBs);opacity:1} .drK .aSlW{background:var(--darkBa);opacity:1} .drK .aScr{background:var(--darkBs)} .drK .aScr::before{background:var(--darkBa);opacity:1} .drK .aScr .hglt{color:var(--darkU)}
 
  ```
+------------------------------------------
 
 Then copy and paste the following HTML code at the bottom of the code ```<main class='blogItm mainbar'>```
 ```sh
@@ -34,6 +36,7 @@ Then copy and paste the following HTML code at the bottom of the code ```<main c
   </div>
 </b:if>
  ```
+ ------------------------------------------
  
  Also add the code below just below the tag ```<b:tag class='pInr' cond='data:view.isSingleItem' name='div'>```
  ```sh
@@ -51,6 +54,7 @@ Then copy and paste the following HTML code at the bottom of the code ```<main c
   </div>
 </b:if>
   ```
+------------------------------------------
 
 Also put the following html code just below the tag ```<data:post.body/>```
  ```sh
@@ -62,7 +66,7 @@ Also put the following html code just below the tag ```<data:post.body/>```
 </b:if>
    ```
    
-   
+------------------------------------------ 
    
 Then the final step, create a static page on the blog and paste the following code in HTML writing mode.   
  ```sh
@@ -108,16 +112,19 @@ Then the final step, create a static page on the blog and paste the following co
   /*]]>*/
 </script>
    
-    ```
-    
+   ```
+------------------------------------------
+
     
 The code above is a page from the manual safelink URL generator tool, if you want to generate a safelink URL automatically use the code below for each post with a download button and the like.   
 
 ```sh
  <div style="text-align:center"><a class="button safeL" href="#" data-href="Your Url here"><i class="icon demo"></i>View Demo</a></div> 
   ```
-  
-  
+
+------------------------------------------
+ 
+ 
 It is recommended to continue using the safelink generator tool on the page, because there is a bug caused by cookies on automatic safelink, which makes safelink remain active even though you have clicked the URL several times. And every time you enter the safelink URL, it is recommended to use tags ```target='_blank'```in each URL button.
 
 Example:```<a href='url_safe_link' terget='_blank'></a>  ```
